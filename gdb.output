@@ -1,18 +1,4 @@
 ========= start ======
-gdbscript.gdb:13: Error in sourced command file:
-No symbol table is loaded.  Use the "file" command.
-========= start ======
-gdbscript.gdb:13: Error in sourced command file:
-No symbol table is loaded.  Use the "file" command.
-========= start ======
-gdbscript.gdb:7: Error in sourced command file:
-No registers.
-========= start ======
-gdbscript.gdb:7: Error in sourced command file:
-No registers.
-gdbscript.gdb:6: Error in sourced command file:
-No registers.
-========= start ======
 i=    0, x.a=  100, x.b= 1000
 i=    1, x.a=  200, x.b=  900
 i=    2, x.a=  300, x.b=  800

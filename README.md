@@ -1,6 +1,6 @@
 ```
 $ sudo  make clean all display
-rm -f a.out
+rm -f a.out gdb.output
 gcc -g a.c
 ./a.out &
 gdb -p `pidof a.out`
@@ -43,23 +43,9 @@ i=    8, x.a=  900, x.b=  200
 i=    9, x.a= 1000, x.b=  100
 ========= end ======
 
-(gdb) quit
+(gdb) q
 Detaching from program: /home/ritesh/a.out, process 20109
 cat gdb.output
-========= start ======
-gdbscript.gdb:13: Error in sourced command file:
-No symbol table is loaded.  Use the "file" command.
-========= start ======
-gdbscript.gdb:13: Error in sourced command file:
-No symbol table is loaded.  Use the "file" command.
-========= start ======
-gdbscript.gdb:7: Error in sourced command file:
-No registers.
-========= start ======
-gdbscript.gdb:7: Error in sourced command file:
-No registers.
-gdbscript.gdb:6: Error in sourced command file:
-No registers.
 ========= start ======
 i=    0, x.a=  100, x.b= 1000
 i=    1, x.a=  200, x.b=  900
@@ -73,4 +59,3 @@ i=    8, x.a=  900, x.b=  200
 i=    9, x.a= 1000, x.b=  100
 ========= end ======
 ```
-# hello-gdbscript

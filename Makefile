@@ -7,4 +7,4 @@ display:
 	cat gdb.output
 
 clean:
-	rm -f a.out
+	rm -f a.out gdb.output
